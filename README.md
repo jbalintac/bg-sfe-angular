@@ -7,15 +7,22 @@ A very simple movie listing app
 ## Requirement Checklist
 
 | |Requirement | Notes |
-|--|--------------|---------------|
+|--|--|--|
 | [x] | Angular (6 or higher) | Version: 7.2.0 | 
-| [x] | Typescript   | Version: 3.2.2  |
-| [x] | Sass   | Minimal usage on: <ul><li>Bootstrap 4</li><li>styles-variables.scss</li>  | 
-| [x] | Rxjs   |<ul><li>  Usage of: subscribe, pipe, filter, map, debounceTime, distinctUntilChanged</li><li>Utilized in: movie.service.ts, home.component.ts</li>  |
-| [x] | Filter by Genre   |  |
-| [x] | Responsive design  | Utilized Bootstrap responsive utilities on Search Bar and Card |
-| [] | Redux  | Todo | 
-| [] | Unit tests  | Todo | 
+| [x] | Typescript | Version: 3.2.2  |
+| [x] | Rxjs |<ul><li>  Usage of: subscribe, pipe, filter, map, debounceTime, distinctUntilChanged</li><li>Utilized in: movie.service.ts, home.component.ts</li> |
+| [x] | Sass | Minimal usage on: <ul><li>Bootstrap 4</li><li>styles-variables.scss</li>  | 
+| [x] | List movies |  |
+| [x] | Search |  |
+| [x] | Nagivate to movie detail |  |
+| [x] | Show movie detail |  |
+| [x] | Nagivate to back movie list |  |
+| [x] | Filter by Genre |  |
+| [ ] | Redux  | Todo | 
+| [ ] | Unit tests  | Todo | 
+| [-] | Polished design  | Todo | 
+| [x] | Responsive design  | Utilized Bootstrap responsive utilities on search bar and card |
+| [x] | Animations | Utilized on card display transition (home.animation.ts) | 
 
 
 ## Development server
