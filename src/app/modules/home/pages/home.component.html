@@ -1,0 +1,32 @@
+<div id="content">
+  <h1 class="display-4 text-center">Movie List</h1>
+  <div class="form-row mt-3">
+    <div class="col-md-9">
+      <input  
+        class="form-control" 
+        type="text" [formControl]="searchField"
+        placeholder="Search movie by name or description">
+    </div>
+    <div class="col col-sm mt-2 mt-md-0">
+      <select 
+        class="form-control" 
+        [formControl]="genreField">
+        <option 
+          *ngFor="let genreType of genreTypes"
+          [ngValue]="genreType">
+            {{genreType}}
+        </option>
+      </select>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <ul 
+      class="list-unstyled col align-self-center"
+      *ngFor="let movie of movies$ | async" @items>
+      
+      <li>
+          <app-movie-list [movie]="movie"></app-movie-list>
+      </li>
+    </ul>
+  </div>
+</div>
