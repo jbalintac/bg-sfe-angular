@@ -2,7 +2,7 @@ import { Movie } from '../models/movie.model';
 import { IAppState } from './IAppState';
 import { FILTER_MOVIES, REQUEST_MOVIES_SUCCESS } from './movie.action';
 
-const movies = [];
+const movies = new Array<Movie>();
 
 const initialState: IAppState = {
     movies,
