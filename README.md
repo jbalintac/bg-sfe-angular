@@ -36,7 +36,7 @@ Run `npm install` initially then just `ng serve` subsequent for a dev server. Na
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `npm install` initially then just `ng build` subsequent to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 Make sure to have a global webpack installed.
 
 ## Running unit tests
