@@ -18,7 +18,7 @@ A very simple movie listing app
 | [x] | Show movie detail |  |
 | [x] | Nagivate to back movie list |  |
 | [x] | Filter by Genre |  |
-| [ ] | Redux  | Todo | 
+| [x] | Redux  | Todo | 
 | [ ] | Unit tests  | Todo | 
 | [-] | Polished design  | Todo | 
 | [x] | Responsive design  | Utilized Bootstrap responsive utilities on search bar and card |
@@ -27,7 +27,7 @@ A very simple movie listing app
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm install` initially then just `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 

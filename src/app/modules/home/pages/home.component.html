@@ -22,7 +22,7 @@
   <div class="row mt-3">
     <ul 
       class="list-unstyled col align-self-center"
-      *ngFor="let movie of movies$ | async" @items>
+      *ngFor="let movie of movies" @items>
       
       <li>
           <app-movie-list [movie]="movie"></app-movie-list>
