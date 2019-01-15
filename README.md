@@ -2,7 +2,7 @@
 
 ## Overview
 
-A very simple movie listing app
+A very simple movie listing app. 
 
 ## Requirement Checklist
 
@@ -18,20 +18,26 @@ A very simple movie listing app
 | [x] | Show movie detail |  |
 | [x] | Nagivate to back movie list |  |
 | [x] | Filter by Genre |  |
-| [x] | Redux  | Todo | 
+| [x] | Redux  | Plain straight redux implementation (app/core/store & home.component.ts) | 
 | [ ] | Unit tests  | Todo | 
-| [-] | Polished design  | Todo | 
+| [-] | Polished design  |  | 
 | [x] | Responsive design  | Utilized Bootstrap responsive utilities on search bar and card |
 | [x] | Animations | Utilized on card display transition (home.animation.ts) | 
+
+## Improvement Recommendations
+
+- Create unit tests.
+- Add Masonry for the card display.
 
 
 ## Development server
 
-Run `npm install` initially then just `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm install` initially then just `ng serve` subsequent for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Make sure to have a global webpack installed.
 
 ## Running unit tests
 
